@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="fi-FI" xmlns="http://purl.org/net/xbiblio/csl">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="fi-FI">
   <info>
     <title>Acta Wasaensia</title>
-    <id>http://csl.mendeley.com/styles/489394391/ActaWasaensia2</id>
+    <id>http://csl.mendeley.com/styles/489394391/glossa-actaWasaensis-alusta-13</id>
     <link href="http://www.zotero.org/styles/glossa" rel="template"/>
     <link href="http://www.zotero.org/styles/apa" rel="template"/>
     <link href="http://www.glossa-journal.org/about/submissions/#Style%20sheet" rel="documentation"/>
@@ -14,7 +14,7 @@
     <category field="linguistics"/>
     <eissn>2397-1835</eissn>
     <summary>Acta Wasaensis - a citation style for the University of Vaasa.</summary>
-    <updated>2019-02-22T06:02:00+00:00</updated>
+    <updated>2018-02-01T19:30:56+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -601,7 +601,7 @@
       </if>
     </choose>
   </macro>
-  <citation delimiter-precedes-last="never" et-al-use-first="1" et-al-subsequent-min="2" et-al-subsequent-use-first="1" disambiguate-add-names="true" disambiguate-add-givenname="true" disambiguate-add-year-suffix="true" givenname-disambiguation-rule="primary-name" collapse="year" cite-group-delimiter="; ">
+  <citation et-al-min="4" et-al-use-first="1" et-al-subsequent-min="3" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year" givenname-disambiguation-rule="primary-name" delimiter-precedes-last="never" cite-group-delimiter="; ">
     <sort>
       <key macro="issued-sort"/>
       <key macro="author"/>
@@ -655,5 +655,4 @@
       <text macro="original-date" prefix=" "/>
     </layout>
   </bibliography>
-  <citation/>
 </style>
